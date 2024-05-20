@@ -1,0 +1,149 @@
+:root{
+    min-width: 400px;
+}
+.menu{
+  display: flex;
+  background-color: aqua;
+  padding: 8px 12px;
+  justify-content: center;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding-left: 0;
+    
+}
+.menu li{
+    padding: 8px 30px;
+}
+.menu li a {
+    text-decoration: none;
+    font-size: 18px;
+}
+.menu li:hover{
+    background-color: skyblue;
+}
+.header{
+    text-align: center;
+    background-color: aqua;
+    margin: 0;
+    font-family: 'SUITE-Regular';
+}
+.header h1{
+    margin: 0;
+    text-align: center;
+}
+main{
+    padding: 15px;
+}
+.rulesc,.list,body h1
+{
+    text-align: center;
+}
+.rulesc{
+    font-size: 17px;
+    font-weight: bold;
+}
+.rules
+{
+    font-size: 14px;
+    max-width: 400px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: aqua;
+    text-align: left;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.rules h3,
+.rules span {
+    padding-left: 33%;
+    display: inline;
+}
+#close {
+    cursor: pointer;
+	display: inline-block;
+	padding: 2px 5px;
+	font-weight: 700;
+	text-shadow: 0 1px 0 #fff;
+	font-size: 1.3rem;
+}
+.list
+{
+    min-width: 310px;
+    max-width: 400px;
+    width : 100%;
+    margin: auto;
+    font-size: 12px;
+}
+.list
+{
+    font-size:medium;
+}
+.inputNumber,
+.gamestart
+{
+    margin: auto;
+    max-width: 200px;
+    height: 50px;
+    position: relative;
+    display: flex;
+    font-family: 'SUITE-Regular';
+}
+.btnNewgame{
+    margin:auto;
+    margin-top: 10px;
+    max-width: 200px;
+    height: 50px;
+    width: 100%;
+    border-radius: 15px;
+    position: relative;
+    display: flex;
+    align-items:center;
+}
+.inputNumber input,
+.gamestart input
+{
+    width: 100%;
+    border-radius: 15px;
+}
+.inputNumber button
+{
+    position: absolute;
+    top: 5px;
+    bottom: 5px;
+    right: 5px;
+    border-radius: 10px;
+    background-color: aqua;
+}
+.inputNumber button:hover,
+.gamestart input:hover,
+.btnNewgame:hover,
+.postRank :hover
+{
+    background-color: skyblue;
+}
+#te{
+    text-align: center;
+}
+
+.postRank * {
+    margin: auto;
+    margin-top: 10px;
+    padding: 0px;
+    max-width: 200px;
+    height: 50px;
+    width: 100%;
+    display: grid;
+    border-radius: 15px;
+    position: relative;
+    align-content: center;
+}
+
+@font-face {
+    font-family: 'SUITE-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}

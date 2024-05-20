@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bullsNcows</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1>숫자야구게임</h1>
+    </header>
+    <nav class="menu">
+        <ul>
+            <li><a href="/mini_projects/index.html">Home</a></li>
+            <li><a href="/mini_projects/rank.html">Ranking</a></li>
+        </ul>
+    </nav>
+    <button id="fetchDataBtn">랭킹 가져오기</button>
+    <div id="dataContainer"></div>
+    <form id="postRank" style="display:none;">
+        <input type="text" id="nickname" name="nickname" placeholder="nickname" required><br><br>
+        <input type="number" id="rank" name="rank" placeholder="rank" required><br><br>
+        <input type="date" id="time" name="time"><br><br>
+        <button type="submit">Submit</button>
+    </form>
+    <script type="module" src="/src/app.js"></script>
+    <script src="/src/source.js"></script>
+</body>
+</html>
