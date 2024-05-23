@@ -113,7 +113,12 @@ function stopTimer() {
     clearInterval(timerInterval); // 타이머 정지
     console.log("타이머가 정지되었습니다.");
 }
-document.querySelector("#btnInput").onclick = function (){
+function enterkey() {
+    if (window.event.keyCode == 13) {
+        inputCheck();
+    }
+  }
+function inputCheck(){
     var inputValue = document.querySelector("#numInput").value;
     if(inputValue=="00000000"){ //Return Answer For Test
         alert(answer);

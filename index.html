@@ -32,8 +32,8 @@
             <input type="button" id="gamestart" value="GAME START" onclick="gameStart()">
         </div>
         <div class="inputNumber">
-            <input type="text" id="numInput" placeholder="숫자를 입력하세요">
-            <button id="btnInput">입력</button>
+            <input type="text" id="numInput" placeholder="숫자를 입력하세요" autocomplete="off" onkeyup="enterkey()">
+            <button id="btnInput" onclick = "inputCheck()">입력</button>
         </div>
         <div class="list"><h2>경기 결과</h2></div>
         <form class="postRank" style="display:none;">
